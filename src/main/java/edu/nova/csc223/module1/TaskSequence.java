@@ -7,7 +7,7 @@
 
 package main.java.edu.nova.csc223.module1;
 
-public class TaskSequence<T> {
+public interface TaskSequence<T> {
 
     /**
      * Adds a non-null element to the end.

@@ -12,7 +12,7 @@ public class ProjectTask {
     String title;
     int priority;
 
-    public Task(
+    public ProjectTask(
             String taskId,
             String title,
             int priority) {
@@ -25,8 +25,5 @@ public class ProjectTask {
         this.title = title;
         this.priority = priority;
     }
-
-
-
 
 }
