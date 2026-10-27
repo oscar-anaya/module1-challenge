@@ -1,3 +1,10 @@
+/**
+ * CSC 223 - Data Structures and Algorithms
+ * Programming Challenge Module 1 - Generic task sequence and search
+ *
+ * @author Oscar Anaya
+ */
+
 package main.java.edu.nova.csc223.module1;
 
 import java.util.Objects;
