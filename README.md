@@ -66,6 +66,14 @@ This project contains clean source files inside ('src/') and is structured to be
     - The IDE will then resolve the standard JUnit 5 testing dependencies
 6. Select the JUnit test class you wish to run and click on Run
 
+### Execution via Terminal / Command Line
+This approach assumes a standard java development environment with SDK Java 21 and Junit 5 libraries
+
+1. Navigate to the directory containing the src folder with the source code. Do not enter the src folder.
+2. Compile the main application code: javac -d out src/main/java/edu/nova/csc223/module1/*.java
+3. Compile teh test JUnit test suite: javac -d out -cp out src/test/java/edu/nova/csc223/module1/*.java
+4. Execute the JUnit tests: java --class-path out --scan-class-path
+
 ---
 
 ## Technical Reasoning Questions
